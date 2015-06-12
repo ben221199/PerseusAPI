@@ -45,4 +45,4 @@ http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn={urn}
 |Type|URL
 |----|------------------------------
 | Get sub verses of the book | http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn=urn:cts:greekLit:tlg0012.tlg001
-| Get brother verses of a verse | http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn=urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1.1
+| Get brother verses of the verse | http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn=urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1.1
