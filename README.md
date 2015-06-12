@@ -1,14 +1,18 @@
-# PerseusAPI
+#PerseusAPI
 How to connect the Perseus API
 
-# Searching
+##Searching
+
+###URL:
 http://catalog.perseus.org/catalog.atom?q={query}&search_field={field}
 
+###Parameters:
 | Parameter | Value
 |-----------|-----------
 | q | <i>text</i>
 | search_field | title<br>author<br>urn
 
+###Examples:
 |Type|URL
 |----|------------------------------
 | Keyword search (All Fields): | http://catalog.perseus.org/catalog.atom?q=Homer
