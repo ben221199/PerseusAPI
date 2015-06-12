@@ -1,11 +1,12 @@
 #PerseusAPI
 
 How to connect the Perseus API and receive ancient texts...<br>
-Every text, edition and verse has a URN for identification.
+Every text, edition, verse and paragraph has a URN for identification.
 
 ##Menu
 [Searching](#searching)<br>
-[References](#references)
+[References](#references)<br>
+[Passages](#passages) (Get texts)<br>
 
 ##Searching
 
@@ -46,3 +47,20 @@ http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn={urn}
 |----|------------------------------
 | Get sub verses of the book | http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn=urn:cts:greekLit:tlg0012.tlg001
 | Get brother verses of the verse | http://www.perseus.tufts.edu/hopper/CTS?request=GetValidReff&urn=urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1.1
+
+##Passages
+
+###URL:
+http://www.perseus.tufts.edu/hopper/CTS?request=GetPassage&urn={urn}
+
+###Parameters:
+| Parameter | Value
+|-----------|-----------
+| request | =GetPassage
+| urn | <i>urn</i>
+
+###Examples:
+|Type|URL
+|----|------------------------------
+| Get a text paragraph | http://www.perseus.tufts.edu/hopper/CTS?request=GetPassage&urn=urn:cts:greekLit:tlg0012.tlg001
+| Get a sentence | http://www.perseus.tufts.edu/hopper/CTS?request=GetPassage&urn=urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1.1
