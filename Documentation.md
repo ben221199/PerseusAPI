@@ -56,7 +56,7 @@ http://www.perseus.tufts.edu/hopper/CTS?request=GetPassage&urn={urn}
 ###Parameters:
 | Parameter | Value
 |-----------|-----------
-| request | =GetPassage
+| request | GetPassage
 | urn | <i>urn</i>
 
 ###Examples:
