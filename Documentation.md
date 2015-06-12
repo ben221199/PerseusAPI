@@ -1,10 +1,10 @@
 #PerseusAPI
 
-How to connect the Perseus API and receive ancient texts...
+How to connect the Perseus API and receive ancient texts...<br>
 Every text, edition and verse has a URN for identification.
 
 ##Menu
-[Searching](#searching)
+[Searching](#searching)<br>
 [References](#references)
 
 ##Searching
