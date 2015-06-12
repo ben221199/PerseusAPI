@@ -3,7 +3,7 @@
 How to connect the Perseus API
 
 ##Menu
-[Searching](#Searching)
+[Searching](#searching)
 
 ##Searching
 
