@@ -10,18 +10,27 @@ Every text, edition, verse and paragraph has a URN for identification.
 
 ##Searching
 
+###Search Suggestions
+
+Search suggestions when typing a query.
+
+####URL:
+http://catalog.perseus.org/catalog/opensearch.json?q={query}
+
+###Search Records (Atom XML)
+
 Search texts by title, author or URN.
 
-###URL:
+####URL:
 http://catalog.perseus.org/catalog.atom?q={query}&search_field={field}
 
-###Parameters:
+####Parameters:
 | Parameter | Value
 |-----------|-----------
 | q | <i>query</i>
 | search_field | title<br>author<br>urn
 
-###Examples:
+####Examples:
 |Type|URL
 |----|------------------------------
 | Keyword search (All Fields): | http://catalog.perseus.org/catalog.atom?q=Homer
