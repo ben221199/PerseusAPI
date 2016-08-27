@@ -1,6 +1,6 @@
 #PerseusAPI
 
-How to connect the Perseus API and receive ancient texts...<br>
+How to connect the Phttp://catalog.perseus.org/catalog/opensearch.json<br>
 Every text, edition, verse and paragraph has a URN for identification.
 
 ##Menu
@@ -16,6 +16,16 @@ Search suggestions when typing a query.
 
 ####URL:
 http://catalog.perseus.org/catalog/opensearch.json?q={query}
+
+####Parameters:
+| Parameter | Value
+|-----------|-----------
+| q | <i>query</i>
+
+####Examples:
+|Type|URL
+|----|------------------------------
+| Suggestions: | http://catalog.perseus.org/catalog.atom?q=Homer
 
 ###Search Records (Atom XML)
 
