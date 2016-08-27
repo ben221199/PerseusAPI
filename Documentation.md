@@ -1,6 +1,6 @@
 #PerseusAPI
 
-How to connect the Phttp://catalog.perseus.org/catalog/opensearch.json<br>
+How to connect to the Perseus API.<br>
 Every text, edition, verse and paragraph has a URN for identification.
 
 ##Menu
