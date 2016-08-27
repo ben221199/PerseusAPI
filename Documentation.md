@@ -25,7 +25,7 @@ http://catalog.perseus.org/catalog/opensearch.json?q={query}
 ####Examples:
 |Type|URL
 |----|------------------------------
-| Suggestions: | http://catalog.perseus.org/catalog.atom?q=Homer
+| Suggestions: | http://catalog.perseus.org/catalog/opensearch.json?q=Homer
 
 ###Search Records (Atom XML)
 
@@ -47,6 +47,10 @@ http://catalog.perseus.org/catalog.atom?q={query}&search_field={field}
 | URN search (URN Field): | http://catalog.perseus.org/catalog.atom?&q=tlg0012&search_field=urn
 | Author search (Author Field): | http://catalog.perseus.org/catalog.atom?&q=Homer&search_field=author
 | Title search (Title Field): |http://catalog.perseus.org/catalog.atom?&q=Iliad&search_field=title
+
+###Search Record (RSS XML)
+
+Soon
 
 ##References
 
