@@ -37,8 +37,10 @@ http://catalog.perseus.org/catalog.atom?q={query}&search_field={field}
 ####Parameters:
 | Parameter | Value
 |-----------|-----------
+| per_page | <i>number</i>
 | q | <i>query</i>
 | search_field | title<br>author<br>urn
+| sort | <i>...</i>
 
 ####Examples:
 |Type|URL
