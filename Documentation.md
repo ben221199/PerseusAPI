@@ -18,8 +18,8 @@ Search suggestions when typing a query.
 http://catalog.perseus.org/catalog/opensearch.json?q={query}
 
 ####Parameters:
-| Parameter | Value | Extra
-|-----------|-----------
+| Parameter | Value | Info
+|-----------|-----------|-----------
 | q | <i>query</i> | Optional
 
 ####Examples:
@@ -27,20 +27,40 @@ http://catalog.perseus.org/catalog/opensearch.json?q={query}
 |----|------------------------------
 | Suggestions: | http://catalog.perseus.org/catalog/opensearch.json?q=Homer
 
+###Search Records
+
+Supported returned formats:
+ - HTML
+ - Atom
+ - RSS
+
+The format of the returned file while searching can be set as followed:
+
+As parameter:
+ - ?format=html
+ - ?format=atom
+ - ?format=rss
+
+As extension:
+ - /catalog.html
+ - /catalog.atom
+ - /catalog.rss
+
 ###Search Records (Atom XML)
 
 Search texts by title, author or URN.
 
 ####URL:
-http://catalog.perseus.org/catalog.atom?q={query}&search_field={field}
+http://catalog.perseus.org/catalog.atom?q={query}&search_field={field}<br>
+http://catalog.perseus.org/catalog?q={query}&format=atom&search_field={field}
 
 ####Parameters:
-| Parameter | Value
-|-----------|-----------
-| per_page | <i>number</i>
-| q | <i>query</i>
-| search_field | title<br>author<br>urn
-| sort | <i>...</i>
+| Parameter | Value | Info
+|-----------|-----------|-----------
+| per_page | <i>number</i> | Optional
+| q | <i>query</i> | Optional
+| search_field | title<br>author<br>urn | Optional
+| sort | <i>...</i> | Optional
 
 ####Examples:
 |Type|URL
