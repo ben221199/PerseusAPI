@@ -20,7 +20,7 @@ http://catalog.perseus.org/catalog/opensearch.json?q={query}
 ####Parameters:
 | Parameter | Value
 |-----------|-----------
-| q | <i>query</i>
+| q | <i>query</i> | Optional
 
 ####Examples:
 |Type|URL
