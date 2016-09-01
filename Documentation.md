@@ -18,7 +18,7 @@ Search suggestions when typing a query.
 http://catalog.perseus.org/catalog/opensearch.json?q={query}
 
 ####Parameters:
-| Parameter | Value |
+| Parameter | Value | Extra
 |-----------|-----------
 | q | <i>query</i> | Optional
 
